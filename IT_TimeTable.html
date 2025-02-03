@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #room{
+            text-align: center;
+        }
+        #font_lighter{
+            font-weight: 100;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <colgroup>
+        </colgroup>
+        <tr>
+            <th colspan="5">IT 시간표</th>
+        </tr>
+        <tr id="room">
+            <th></th>
+            <th style="width: 50px;">401호</th>
+            <th style="width: auto;">402호</th>
+            <th style="width: 156px;">403호</th>
+            <th style="width: 102px;">404호</th>
+        </tr>
+        <tr>
+            <th>09:00~12:00</th>
+            <!-- <td rowspan="4" style="text-align: center; vertical-align: middle; padding: 15px;" ><b>공사중</b></td> -->
+            <td rowspan="4" style="text-align: center; line-height: 40px" ><b>공<br>사<br>중</b></td>
+            <td id="font_lighter">PYTHON 기 초</td>
+            <td id="font_lighter" rowspan="2" style="text-align: left;">네트워크 보안<br> 실무자 양성</td>
+            <td id="font_lighter">보충훈련 과정 (OS/네트워크)</td>
+        </tr>
+        <tr>
+            <th>12:30~15:30</th>
+            <td id="font_lighter">JAVA</td>
+            <td id="font_lighter">보충훈련 과정 (언어계열)</td>
+        </tr>
+        <tr>
+            <th>15:30~18:30</th>
+            <td id="font_lighter">C언어</td>
+            <td id="font_lighter" rowspan="2">가상화 시스템<br> 엔지니어 실무자 양성</td>
+            <td id="font_lighter" >리눅스</td>
+        </tr>
+        <tr>
+            <th>19:00~22:00</th>
+            <td id="font_lighter">PYTHON_WEB</td>
+            <td id="font_lighter">서버</td>
+        </tr>
+    </table>
+
+</body>
+</html>
